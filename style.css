@@ -1,5 +1,6 @@
 .header {
   font-family: Tahoma, cursive;
+  color: black;
   font-weight: bold;
   font-size: 12pt;
   text-align: center;
@@ -7,5 +8,8 @@
 
 .body {
   font-family: Tahoma, cursive;
+  color: black;
+  font-weight: normal;
   font-size: 10pt;
+  text-align: left;
 }
