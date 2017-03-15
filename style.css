@@ -1,0 +1,12 @@
+.header {
+  font-family: Times New Roman, serif;
+  font-weight: bold;
+  font-size: 16pt;
+  text-align: center;
+}
+
+.body {
+  font-family: Tahoma, cursive;
+  font-size: 12pt;
+  text-align: center;
+}
