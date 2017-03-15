@@ -12,7 +12,7 @@
   <h1 class="header">even better if i remembered my javascript</h3>
 
   <div>
-    <p class="body" align="center">
+    <p id="time" align="center">
       <script type="text/javascript">
         var todayDate = new Date();
         var year = todayDate.getFullYear();
@@ -20,13 +20,14 @@
         var day = todayDate.getDate();
         var hour = todayDate.getHours();
         var minute = todayDate.getMinutes();
-        var currentTime = year + "." + month + "." + day + " | " + hour + ":" + minute;
+        var currentTime = year + "." + month + "." + day + " | " + hour + ":" + minute + " ( irregular month ? ? ? )";
         document.write(currentTime);
       </script>
     </p>
   </div>
 
   <div>
+    <p class="timestamp">2017.03.15 | 0:54</p>
     <ul class="body">
       <li>give me some time so i can make this <strong>html website</strong> look better . . .</li>
       <li>eventually, i'll get back into using <strong>css</strong> to make visual designs quicker .</li>
@@ -39,7 +40,9 @@
     </ol>
   </div>
 
-  <p class="body"><a href="http://www.google.com/">go back to google</a></p>
+  <p class="body">
+    <a href="http://www.google.com/">go back to google</a>
+  </p>
 </body>
 
 </html>

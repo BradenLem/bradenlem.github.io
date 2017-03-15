@@ -2,7 +2,7 @@
   font-family: Tahoma, cursive;
   color: black;
   font-weight: bold;
-  font-size: 12pt;
+  font-size: 14pt;
   text-align: center;
 }
 
@@ -12,4 +12,20 @@
   font-weight: normal;
   font-size: 10pt;
   text-align: left;
+}
+
+.timestamp {
+  font-family: Tahoma, cursive;
+  color: black;
+  font-style: italic;
+  font-size: 12pt;
+  text-align: left;
+}
+
+#time {
+  font-family: Tahoma, cursive;
+  color: black;
+  font-weight: bold;
+  font-size: 10pt;
+  text-align: right;
 }
