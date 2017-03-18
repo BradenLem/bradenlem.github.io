@@ -1,5 +1,5 @@
 .header {
-  font-family: Tahoma, cursive;
+  font-family: 'Quicksand', Tahoma, cursive;
   color: black;
   font-weight: bold;
   font-size: 14pt;
@@ -7,7 +7,7 @@
 }
 
 .body {
-  font-family: Tahoma, cursive;
+  font-family: 'Quicksand', Tahoma, cursive;
   color: black;
   font-weight: normal;
   font-size: 10pt;
@@ -15,7 +15,7 @@
 }
 
 .timestamp {
-  font-family: Tahoma, cursive;
+  font-family: 'Quicksand', Tahoma, cursive;
   color: black;
   font-weight: normal;
   font-size: 12pt;
@@ -23,7 +23,7 @@
 }
 
 #time {
-  font-family: Tahoma, cursive;
+  font-family: 'Quicksand', Tahoma, cursive;
   color: black;
   font-weight: bold;
   font-size: 10pt;
