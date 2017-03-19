@@ -2,7 +2,7 @@ html, body {
 	background-color: #ffffff;
 	
 	font-family: 'Quicksand', sans-serif;
-	font-size: 10pt;
+	font-size: 16pt;
 	font-style: normal;
 	font-weight: normal;
 	color: black;
@@ -15,14 +15,14 @@ html, body {
 }
 
 h1 {
-	font-size: 16pt;
+	font-size: 26pt;
 	font-style: italic;
 	
 	text-align: center;
 }
 
 h3 {
-	font-size: 14pt;
+	font-size: 20pt;
 	font-weight: bold;
 
 	text-align: center;
@@ -34,20 +34,24 @@ div {
 }
 
 .container {
-	padding-left: 30px;
-	padding-right: 30px;
+	display: flex;
 }
 
 .nav {
 	background-color: #86f0cb;
+	
+	flex: 1;
+	min-width: 200px;
+	max-width: 30%;
 }
 
 .nav ol {
-	flex: 1;
-	
-	text-align: center;
+	text-align: left;
 }
 
 .main {
+	min-width: 70%;
 	
+	padding-left: 30px;
+	padding-right: 30px;
 }
