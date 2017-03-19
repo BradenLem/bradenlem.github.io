@@ -38,7 +38,7 @@ div {
 }
 
 .main {
-	max-width: 70%;
+	min-width: 70%;
 	padding-left: 40px;
 	padding-right: 40px;
 }
