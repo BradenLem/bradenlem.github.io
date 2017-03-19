@@ -38,14 +38,14 @@ div {
 }
 
 .main {
-	min-width: 70%;
-	padding-left: 40px;
-	padding-right: 40px;
+	min-width: 50%;
+	padding-left: 30px;
+	padding-right: 30px;
 }
 
 .nav {
 	background-color: #86f0cb;
 	
 	flex: 1;
-	max-width: 30%;
+	max-width: 50%;
 }
