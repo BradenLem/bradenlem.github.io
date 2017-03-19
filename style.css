@@ -34,18 +34,20 @@ div {
 }
 
 .container {
-	display: flex;
-}
-
-.main {
-	min-width: 50%;
 	padding-left: 30px;
 	padding-right: 30px;
 }
 
 .nav {
 	background-color: #86f0cb;
-	
+}
+
+.nav ol {
 	flex: 1;
-	max-width: 50%;
+	
+	text-align: center;
+}
+
+.main {
+	
 }
