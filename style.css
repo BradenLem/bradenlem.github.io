@@ -2,7 +2,7 @@ html, body {
 	background-color: #ffffff;
 	
 	font-family: 'Quicksand', sans-serif;
-	font-size: 16pt;
+	font-size: 14pt;
 	font-style: normal;
 	font-weight: normal;
 	color: black;
@@ -15,7 +15,7 @@ html, body {
 }
 
 h1 {
-	font-size: 26pt;
+	font-size: 32pt;
 	font-style: italic;
 	
 	text-align: center;
@@ -25,6 +25,7 @@ h3 {
 	font-size: 20pt;
 	font-weight: bold;
 
+	line-height: 10px;
 	text-align: center;
 }
 
@@ -38,11 +39,12 @@ div {
 }
 
 .nav {
-	background-color: #86f0cb;
+	background-color: #5cd6ab;
+	color: #ffffff;
 	
 	flex: 1;
-	min-width: 200px;
-	max-width: 30%;
+	min-width: 400px;
+	max-width: 50%;
 }
 
 .nav ol {
@@ -50,7 +52,7 @@ div {
 }
 
 .main {
-	min-width: 70%;
+	min-width: 50%;
 	
 	padding-left: 30px;
 	padding-right: 30px;
