@@ -41,20 +41,26 @@ h3 {
 	padding-bottom: 40px;
 }
 
+nav {
+	max-width: 50%;
+	margin: auto;
+}
+
 nav a {
 	background-color: #ffffff;
 	color: #5cd6ab;
 	border-radius: 5px;
 	
 	text-align: center;
+	text-decoration: none;
 	
-	padding: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
 	margin: 10px;
 	
 	cursor: pointer;
-}
-nav a:active {
-	top: 2px;
 }
 
 .main {
