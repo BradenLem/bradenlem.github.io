@@ -2,7 +2,7 @@ html, body {
 	background-color: #ffffff;
 	
 	font-family: 'Quicksand', sans-serif;
-	font-size: 14pt;
+	font-size: 1.0em;
 	font-style: normal;
 	font-weight: normal;
 	color: black;
@@ -15,17 +15,16 @@ html, body {
 }
 
 h1 {
-	font-size: 32pt;
-	font-style: italic;
+	font-size: 2.3em;
 	
 	text-align: center;
 }
 
 h3 {
-	font-size: 20pt;
+	font-size: 1.8em;
 	font-weight: bold;
 
-	line-height: 10px;
+	line-height: 1.2em;
 	text-align: center;
 }
 
@@ -47,13 +46,18 @@ div {
 	max-width: 50%;
 }
 
-.nav ol {
+.nav p {
+	background-color: #ffffff;
+	color: #5cd6ab;
+	
+	border-radius: 10px;
+	
 	text-align: left;
 }
 
 .main {
 	min-width: 50%;
 	
-	padding-left: 30px;
-	padding-right: 30px;
+	padding-left: 40px;
+	padding-right: 40px;
 }
