@@ -34,7 +34,7 @@ div {
 }
 
 .container {
-	display: flex;
+	display: block;
 }
 
 .nav {
@@ -50,9 +50,15 @@ div {
 	background-color: #ffffff;
 	color: #5cd6ab;
 	
-	border-radius: 10px;
+	border-radius: 5px;
 	
-	text-align: left;
+	text-align: center;
+	
+	padding: 10px;
+	margin-left: 60px;
+	margin-right: 60px;
+	
+	cursor: pointer;
 }
 
 .main {
