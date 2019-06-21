@@ -81,12 +81,40 @@ nav a {
 }
 
 .main {
-	padding-left: 40px;
-	padding-right: 40px;
+	padding-left: 60px;
+	padding-right: 60px;
 	margin-top: 20px;
 	margin-bottom: 20px;
 	margin-left: 70px;
 	margin-right: 70px;
+}
+
+.half-width {
+	display: inline-block;
+	box-sizing: border-box;
+	
+	text-align: center;
+	
+	padding: 0px;
+	margin: 0px;
+	min-width: 250px;
+	width: 50%;
+	
+	vertical-align: top;
+}
+
+.qtr-width {
+	display: inline-block;
+	box-sizing: border-box;
+	
+	text-align: center;
+	
+	padding: 0px;
+	margin: 0px;
+	min-width: 250px;
+	width: 25%;
+	
+	vertical-align: top;
 }
 
 #construction {
